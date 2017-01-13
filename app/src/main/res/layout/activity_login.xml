@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/layout_left_pad"
+    android:paddingRight="@dimen/layout_right_pad"
+    android:paddingTop="@dimen/main_layout_top"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:inputType="textEmailAddress"
+        android:hint="@string/log_email"
+        android:layout_marginLeft="@dimen/text_view_left_pad"
+        android:layout_marginRight="@dimen/text_view_right_pad"
+        android:background="@drawable/edittext_shape"
+        android:paddingLeft="@dimen/layout_left_pad"
+        android:textColor="@color/black_color"
+        android:textColorHint="@color/hint_color"
+    />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:layout_marginLeft="@dimen/text_view_left_pad"
+        android:layout_marginRight="@dimen/text_view_right_pad"
+        android:inputType="textPassword"
+        android:hint="@string/log_password"
+        android:layout_marginTop="@dimen/padding_hint"
+        android:paddingLeft="@dimen/padding_hint"
+        android:background="@drawable/edittext_shape"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/black_color"
+        />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:text="@string/log_signin"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/button_top_pad"
+        android:layout_marginLeft="@dimen/button_left_pad"
+        android:layout_marginRight="@dimen/button_right_pad"
+        android:textColor="@color/black_color"
+        android:background="@drawable/edittext_shape"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="loginToMainPage"
+        android:clickable="true"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/errorView"
+        android:text="@string/create_acc_msg"
+    />
+
+    <TextView
+        android:text="@string/create_account_link"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:gravity="center"
+        android:autoLink="web"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/creaateAccount"
+        android:clickable="true"
+        android:onClick="startRegisterActivity"
+        />
+ <!--android:onClick="registerPage"-->
+
+
+</LinearLayout>

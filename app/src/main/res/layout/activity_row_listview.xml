@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/white_color"
+    android:paddingBottom="10dp"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="@dimen/row_img_width"
+        android:layout_height="@dimen/row_img_height"
+        android:src="@drawable/a1004"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/songLayout"
+        android:layout_width="@dimen/row_child_width"
+        android:layout_height="@dimen/row_layout_height"
+        android:layout_toRightOf="@+id/imgView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_alb_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_text_height"
+            android:text="@string/row_album_name"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black_color"/>
+
+        <TextView
+            android:id="@+id/list_alb_song"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_text_height"
+            android:text="@string/row_album_song"
+            android:gravity="top"
+            android:textColor="@color/black_color"/>
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="100dp"
+         android:layout_height="90dp"
+         android:orientation="vertical"
+
+         android:layout_alignParentTop="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true">
+
+         <TextView
+
+             android:layout_width="100dp"
+             android:layout_height="50dp"
+             android:text="Rattings"
+
+             android:layout_toRightOf="@+id/songLayout"
+             android:gravity="bottom"
+             android:textColor="@color/black_color"/>
+
+
+         <RatingBar
+             android:id="@+id/rating_album"
+             android:layout_width="100dp"
+             android:layout_height="30dp"
+             android:numStars="5"
+             android:rating="0.5"
+             android:layout_marginTop="10dp"
+             style="@style/ratingBar"/>
+     </LinearLayout>-->
+
+</RelativeLayout>
+

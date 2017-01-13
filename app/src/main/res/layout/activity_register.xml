@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/layout_left_pad"
+        android:paddingRight="@dimen/layout_right_pad">
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/first_text_view_top"
+            android:background="@drawable/edittext_shape"
+            android:hint="@string/reg_fname"
+            android:inputType="text"
+            android:paddingLeft="@dimen/padding_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/text_view_top_pad"
+            android:background="@drawable/edittext_shape"
+            android:hint="@string/reg_lname"
+            android:inputType="text"
+            android:paddingLeft="@dimen/padding_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/text_view_top_pad"
+            android:background="@drawable/edittext_shape"
+            android:hint="@string/log_email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/padding_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <EditText
+            android:id="@+id/mobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/text_view_top_pad"
+            android:background="@drawable/edittext_shape"
+            android:hint="@string/reg_mobile"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingLeft="@dimen/padding_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/text_view_top_pad"
+            android:background="@drawable/edittext_shape"
+            android:hint="@string/reg_password"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/padding_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/hint_color" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/text_view_top_pad"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/width_100"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/reg_gender"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/genderGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_view_left_pad"
+                android:layout_marginTop="@dimen/text_view_top_pad"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/gMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/reg_male" />
+
+                <RadioButton
+                    android:id="@+id/gFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reg_female" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/age_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/first_text_view_top"
+            android:background="@color/gray_color"
+            android:spinnerMode="dialog"
+            />
+
+        <Spinner
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/first_text_view_top"
+            android:background="@color/gray_color"
+            android:spinnerMode="dialog"
+            />
+        <Spinner
+            android:id="@+id/states"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/first_text_view_top"
+            android:background="@color/gray_color"
+            android:spinnerMode="dialog"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/child_layout_width"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/text_view_top_pad"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/gender_width"
+                android:layout_height="@dimen/gender_hight"
+                android:layout_marginLeft="@dimen/padding_hint"
+                android:gravity="start"
+                android:text="@string/reg_language"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <CheckBox
+                android:id="@+id/ln_en"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/chk_top_pad"
+                android:checked="true"
+                android:text="@string/reg_lang_en" />
+
+            <CheckBox
+                android:id="@+id/ln_hi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/chk_top_pad"
+                android:checked="false"
+                android:text="@string/reg_lang_hi" />
+
+            <CheckBox
+                android:id="@+id/ln_ta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/chk_top_pad"
+                android:text="@string/reg_lang_tn" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/text_view_left_pad"
+            android:layout_marginRight="@dimen/text_view_right_pad"
+            android:layout_marginTop="@dimen/text_view_top_pad"
+            android:background="@drawable/edittext_shape"
+            android:text="@string/reg_button"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black_color"
+            android:onClick="registerUserDetails"
+            />
+
+    </LinearLayout>
+</ScrollView>

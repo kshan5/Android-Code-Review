@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">MyMusicAlbum</string>
+
+    <!-- Login variables -->
+    <string name="log_email">UserName/Email</string>
+    <string name="log_password">Password</string>
+    <string name="log_signin">Sign in</string>
+    <string name="create_account_link">Create Account</string>
+    <string name="create_acc_msg">If you are new user please click below link</string>
+    <string name="login_msg">Register Successfully!!! Please enter the user credentials to login</string>
+    <!-- Register Variables -->
+
+    <string name="reg_fname">First Name</string>
+    <string name="reg_lname">Last Name</string>
+    <string name="reg_uname">UserName/Email</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_language">Language Known</string>
+    <string name="reg_gender">Gender :</string>
+    <string name="reg_mobile">Mobile Number</string>
+    <string name="reg_age_grp">Age group</string>
+    <string name="reg_lang_en">English</string>
+    <string name="reg_lang_hi">Hindi</string>
+    <string name="reg_lang_tn">Tamil</string>
+    <string name="reg_button">Register</string>
+    <string name="reg_male">Male</string>
+    <string name="reg_female">Female</string>
+    <string name="reg_user_avail">User already available</string>
+
+    <!-- Row View -->
+
+    <string name="row_album_name">Title</string>
+    <string name="row_album_song">Song Name</string>
+
+
+    <!-- Album Detaile View -->
+
+    <string name="dl_album_name">Album Title :</string>
+    <string name="dl_album_artist">Artist :</string>
+    <string name="dl_release_date">Release Date :</string>
+    <string name="dl_album_produer">Producer :</string>
+    <string name="dl_album_awards">Awards :</string>
+    <string name="dl_album_geners">Geners :</string>
+    <string name="dl_album_songs">Songs :</string>
+    <string name="dl_album_ratings">Ratings :</string>
+
+    <!-- Login Error Message -->
+    <string name="log_email_empty">Email should not be empty!</string>
+    <string name="log_email_valid">Enter valid address!</string>
+    <string name="log_pass_empty">Password should not be empty!</string>
+    <string name="log_success">Login Successfully!!!</string>
+    <string name="log_fail">User does not available!!!</string>
+    <string name="log_first_name">First Name should not be empty!!!</string>
+
+    <string name="log_mobile_empty">Mobile should not be empty!!!</string>
+    <string name="log_mobile_valid">Enter valid mobile number!!!</string>
+
+    <!-- List View Row -->
+    <string name="row_song">Sonng</string>
+    <string name="row_title">Title</string>
+
+    <string name="job_search">Search Job Here</string>
+    <string name="job_openings">Current Job Openings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

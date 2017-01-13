@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Login Page dimensions -->
+    <dimen name="text_view_left_pad">20dp</dimen>
+    <dimen name="text_view_right_pad">20dp</dimen>
+    <dimen name="text_view_top_pad">10dp</dimen>
+    <dimen name="text_view_height">60dp</dimen>
+
+    <dimen name="layout_left_pad">10dp</dimen>
+    <dimen name="layout_right_pad">10dp</dimen>
+    <dimen name="main_layout_top">100dp</dimen>
+
+
+    <dimen name="padding_hint">10dp</dimen>
+
+    <dimen name="button_left_pad">20dp</dimen>
+    <dimen name="button_right_pad">20dp</dimen>
+    <dimen name="button_top_pad">25dp</dimen>
+
+    <!-- Register Page dimensions -->
+    <dimen name="first_text_view_top">20dp</dimen>
+    <dimen name="chk_top_pad">3dp</dimen>
+    <dimen name="gender_width">200dp</dimen>
+    <dimen name="gender_hight">30dp</dimen>
+    <dimen name="child_layout_width">120dp</dimen>
+    <dimen name="width_100">100dp</dimen>
+
+    <!-- Row view -->
+    <dimen name="row_img_height">75dp</dimen>
+    <dimen name="row_img_width">100dp</dimen>
+    <dimen name="row_child_width">180dp</dimen>
+    <dimen name="row_text_height">30dp</dimen>
+    <dimen name="row_layout_height">90dp</dimen>
+    <dimen name="pad_bottom">10dp</dimen>
+
+    <!-- Detailed View -->
+    <dimen name="parent_pad_top_bottom">16dp</dimen>
+    <dimen name="parent_pad_lest_right">64dp</dimen>
+
+    <dimen name="img_view_height">200dp</dimen>
+    <dimen name="child_layout_height">300dp</dimen>
+    <dimen name="margin_top_first_last_ele">20dp</dimen>
+    <dimen name="text_height">40dp</dimen>
+    <dimen name="margi_top">10dp</dimen>
+
+    <dimen name="button_height">90dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+</resources>
